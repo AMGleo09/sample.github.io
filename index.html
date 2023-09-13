@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL HISTORY</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+         box-sizing: border-box; 
+    }
+    body{
+        background: rgb(236, 218, 218);
+    }
+    header{
+        height: 50px;
+        width: 100%;
+        background: blue;
+        display: flex;
+         justify-content: center; 
+         position: fixed;
+         z-index: 6;
+        
+    }
+    header a{
+        
+        text-decoration: none;
+        color: white;
+        width:150px ;
+        height: 50px;
+        display: block;
+        float: left;
+         text-align: center; 
+        margin-left: 15px;
+        line-height: 50px; 
+    }
+    header a:hover{
+        font-size: 30px;
+        background-color: pink;
+        color: red;
+    }
+    .displayx{
+        background: url(1.jpeg);
+        /* background-size: 100% 700px; */
+                background-size: cover;
+
+        
+    }
+    .img-galary{
+        width: 1500px;
+        height: auto;
+        margin: auto;
+        /* background-color: aqua; */
+        display: flex;
+        position: relative;
+        z-index: 1;
+    }
+    .img-galary p{
+        text-align: center;
+        padding: 15px;
+    }
+    .img-galary img{
+        width: 450px;
+        height: 350px;
+    }
+    .imgdiv{
+        background: white;
+    }
+
+    
+
+</style>
+<body>
+    <div>
+    <header>
+        <a href="index.html">TRIPS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="#i1" style="font-size: 10px;">sample click to last tour</a>
+    </header>
+    <div class="displayx" style="width: 100%; height: 700px; ">
+    <!-- <img src="1.jpeg" width="100%" height="600px" > -->
+    </div>
+    <div style="text-align: center; width: 100%; height: 100px; line-height: 100px;">
+        <h1>My Travel Diary</h1>
+    </div>
+    <div class="img-galary">
+        <table class="galary-table" cellspacing="30" >
+
+            <tr>
+                <td>
+                    <div class="imgdiv" >
+                    
+                    <a href="paris.html">
+                    <img src="2 PARIS.jpg">
+                    </a>   
+                    
+                    <p> <b>PARIS</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="3 Machu_Picchu_early.jpeg">
+                    
+                    </a>   
+                    <p> <b>MACHU PICCHU,PERU</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="4 grand.jpg">
+                    
+                    </a>   
+                    <p> <b>THE GRAND CANYON</b></p>
+                    </div>
+                </td>
+                
+                
+            </tr>
+            <tr>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="5 NEW-ZEALAND.jpg">
+                    
+                    </a>   
+                    <p> <b>NEW ZELAND</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="6 rome.jpg">
+                    
+                    </a>   
+                    <p> <b>ROME</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="7 BORA-BORA.jpg">
+                    
+                    </a>   
+                    <p> <b>BORA BORA</b></p>
+                    </div>
+                </td>
+                
+                
+            </tr>
+            <tr>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="8 LONDON.jpg">
+                    
+                    </a>   
+                    <p> <b>LONDON</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="9 GREAT-BARRIER-REEF.jpg">
+                    
+                    </a>   
+                    <p> <b>AUSTRALIA</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="10 PAMUKALLE.jpg">
+                    
+                    </a>   
+                    <p> <b>PAMUKALLE,TURKEY</b></p>
+                    </div>
+                </td>
+                
+                
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="11 PHUKET.jpg">
+                    
+                    </a>   
+                    <p> <b>THAILAND</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv">
+                    <a href="paris.html">
+                    <img src="12 BARCELONA.jpg">
+                    
+                    </a>   
+                    <p> <b>BARCELONA</b></p>
+                    </div>
+                </td>
+                <td>
+                    <div class="imgdiv" id="i1">
+                    <a href="paris.html">
+                    <img src="13 BALI.jpg">
+                    
+                    </a>   
+                    <p> <b>BALI</b></p>
+                    </div>
+                </td>
+                
+                
+            </tr>
+
+           
+        </table>
+        
+    </div>
+    </div>
+
+</body>
+</html>

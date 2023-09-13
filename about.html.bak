@@ -72,7 +72,7 @@
 </style>
 <body>
     <header>
-        <a href="index.html">TRIPS</a>
+        <a href="home.html">TRIPS</a>
         <a href="about.html">ABOUT</a>
         <a href="contact.html">CONTACT</a>
     </header>
